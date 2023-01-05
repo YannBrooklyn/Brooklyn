@@ -1,0 +1,455 @@
+/* --------------------------Principal-------------------------------------- */
+
+
+
+
+html {
+    margin-block-start: 10%;
+    min-height: 100%;
+    background-image: url(/images/nba23back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+ }
+
+
+
+.background {
+    background-color: #000000e7;
+
+}
+
+
+#MyVideo {
+    /*mise en forme de la video*/
+    
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    
+
+}
+
+.backvid {
+    text-align: center;
+}
+
+.div1 {
+    background-color: none;
+    
+ }
+ 
+ nav {
+     text-align: center;
+     top: 0;
+     position: fixed;
+     margin-left: 16%;
+     margin-right: 16%;  
+     
+ }
+ 
+ ul {
+     list-style-type: none;
+     
+     
+     
+ }
+ 
+ li {
+     
+     display: inline-block;
+     
+     padding-bottom: 5%;
+     text-align: center;
+     
+ }
+
+ nav ul li a {
+    border-style: double;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #000000;
+    border-color: rgba(255, 255, 255, 0.47);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.nbasite {
+    height: 15px;
+    width: 40px;
+}
+
+body{
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 80px;
+    
+}
+
+
+.titre {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+footer {
+
+    text-align: center;
+    
+}
+
+/*------------------------------------------------------Index--------------------------------------------------*/
+
+.index {
+    color: rgb(255, 255, 255);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+  
+}
+
+.image1 {
+    border-radius: 10%;
+    border-style: double;
+    max-width: 100%;
+    width: 4000px;
+    
+    
+    
+}
+
+.bat {
+    max-width: 100%;
+    width: 2000px; 
+}
+
+
+
+
+
+.corps1 {
+    
+    
+    border-style: double;
+    
+    
+}
+
+.corps2 {
+   
+    border-style: double;
+    
+}
+
+.corps3 {
+    
+    border-style: double;
+    
+}
+
+
+
+
+
+
+
+.p1 {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+
+/*---------------------------------------------FORUM-----------------------------------*/
+
+
+
+.Forum {
+    color: rgb(255, 255, 255);
+}
+
+
+/*------------------------------------VILLE---------------------------------------*/
+
+
+
+.Ville {
+    color: rgb(255, 255, 255);
+}
+
+.affiliation {
+    width: 100%;
+    
+}
+
+
+/*--------------------------------------OPUS---------------------------------------------------*/
+
+
+.Opus {
+    color: rgb(255, 255, 255);
+    
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.div3 {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5%;
+    text-align: center;
+    
+    
+}
+
+.nbaop {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.image2 {
+    
+    border-color: goldenrod;
+    border-style:inset;
+    height: 100px;
+    width: 100px;
+    
+
+}
+
+
+.opnba {
+    text-align: center;
+
+}
+
+
+
+/*-----------------------------------------STREAMERS--------------------------------*/
+
+
+
+
+
+
+.Streamers {
+    color: rgb(255, 255, 255);
+}
+
+.nickname {
+    text-decoration: underline;
+    color: white;
+    
+}
+
+
+
+
+
+/*------------------------------------------HIGHLIGHT-----------------------------*/
+
+
+
+
+
+
+.Highlight {
+    color: rgb(255, 255, 255);
+}
+
+.vids {
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 50px;
+ } 
+
+.vids-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.item {
+      display: inline-block;
+      flex: 0 0 auto;
+
+}
+
+.picture {
+    width: 200px;
+    height: 100px;
+}
+
+.pics {
+    margin-top: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+ } 
+
+.pics-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.titrescroll {
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+#allscroll {
+    margin-bottom: 50px;
+}
+
+/*----------------------------------------------LOGIN---------------------------------*/
+
+#bodylog {
+    color: white;
+    text-align: center;
+    
+}
+
+
+#mainlog {
+    width: 500px;
+    margin-left:25%;
+    margin-right: 25%;
+}
+
+
+
+.email {
+   
+   
+    text-align: center;
+    
+}
+
+.mdp {
+    text-align: center;
+    
+}
+
+
+
+
+
+.buttonl {
+    margin-top: 20px;
+    background-color: #242424f0;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.buttonl:hover {
+    background-color: #3f3f3f;
+}
+
+#footerlog {
+    margin-left:25%;
+    margin-right: 25%;
+    width: 500px;
+    
+}
+
+/* Erreur */
+
+#supportt {
+
+    margin-block-start: 10%;
+    min-height: 100%;
+    background-image: url(/images/sad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+#erreur {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.bsup {
+    background-color: black;
+    border-color: white;
+    border: 3px;
+    border-style: double;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+
+/*-----------------------FOOTER-----------------------*/
+
+.barre {
+    
+    border-top: white;
+    border-style: solid;
+    border-width: 1px;
+    border-left: hidden;
+    border-right: hidden;
+
+}
+
+.nbamain {
+    margin-top: 1%;
+    height: 50px;
+    width: 25px;
+}
+
+.logonba {
+    height: 50px;
+    width: 50px;
+}
+
+.wnba {
+    margin-top: 1px;
+    height: 50px;
+    width: 100px;
+}
+
+#support {
+    text-decoration:underline;
+    
+}
+
+.support {
+    color: white;
+}
